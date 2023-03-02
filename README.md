@@ -28,11 +28,10 @@ Ubuntu 18.04 Operating system, TensorRt installation on a computer with Nvidia G
 	sudo apt install tensorrt 
 
 	python3 -m pip install numpy
-	sudo apt-get install python3-libnvinfer-dev
-	python3-libnvinfer
-
+	sudo apt-get install python3-libnvinfer-dev python3-libnvinfer
+	
 	python3 -m pip install protobuf
 	sudo apt-get install uff-converter-tf
 
-	python3 -m pip install numpy onnx
+	python3 -m pip install numpy onnx==1.4.1
 	sudo apt-get install onnx-graphsurgeon
